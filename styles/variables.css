@@ -5,7 +5,7 @@
   --decorate-gap-768px: 20px;
 
   --bg-color: #000028;
-  --bg-img: url(/images/cover-image.png);
+  --bg-img: url(../images/cover-image-dark.png);
   --accent-color: #ff0070;
   --article-title: #000028;
   --paragraph-color: #000028;
@@ -13,4 +13,10 @@
   --header-title-color: #db00ff;
   --title-color: #ff0070;
   --decorated-color: #ff0070;
+}
+
+@media (prefers-color-scheme: light) {
+  .rec {
+    display: block;
+  }
 }
