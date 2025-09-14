@@ -194,6 +194,7 @@
 }
 
 .text-link {
+  outline: none;
   text-decoration: none;
   text-shadow: 1px 2px 0 var(--accent-color);
 }
