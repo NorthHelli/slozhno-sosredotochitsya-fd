@@ -14,9 +14,3 @@
   --title-color: #ff0070;
   --decorated-color: #ff0070;
 }
-
-@media (prefers-color-scheme: light) {
-  .rec {
-    display: none;
-  }
-}
