@@ -9,4 +9,18 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --bg-color: #000028;
+  --bg-img: url(../images/cover-image-dark.png);
+  --accent-color: #ff0070;
+  --article-title: #000028;
+  --paragraph-color: #000028;
+  --article-parahraph: #f1b2ce;
+  --header-title-color: #db00ff;
+  --title-color: #ff0070;
+  --decorated-color: #ff0070;
+  --menu-outline: rgba(255, 0, 112, 0.4)
+}
+
+.theme-dark .rec {
+  display: block;
 }
