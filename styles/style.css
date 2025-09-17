@@ -105,7 +105,8 @@
 }
 
 .header__paragraph {
-  margin: auto 0;
+  justify-self: end;
+  align-self: center;
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: var(--main-font-size);
@@ -285,8 +286,8 @@
   }
 
   .header__paragraph {
-    margin-block-start: 165px;
-    margin-inline-start: 374px;
+    margin-inline-end: 10px;
+    margin-block-end: 10px;
     max-width: 364px;
   }
 
@@ -374,9 +375,8 @@
   }
 
   .header__paragraph {
-    margin-block-start: 114px;
-    margin-left: 500px;
     max-width: 497px;
+    margin-inline-end: 5px;
   }
 
   .section {
